@@ -8,7 +8,7 @@ This is a example of generate a html file with YAML file and handlebars template
 
 install node module:
 
-	node install
+	npm install
 
 usage:
 
