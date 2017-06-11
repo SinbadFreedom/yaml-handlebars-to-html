@@ -1,4 +1,4 @@
-yaml-handlebars-2html
+yaml-handlebars-to-html
 ---
 ***Author: Sinbad***
 
