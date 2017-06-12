@@ -1,10 +1,16 @@
 <html>
 <body>
+<h1>{{{title}}}</h1>
+
 <div>
-    <h1>{{title}}</h1>
-    <div class="body">
-        {{content}}
-    </div>
+    <ui>
+        {{#each catalog}}
+            <li>
+                标题: {{this.chapter}}<br>
+                内容: {{this.content}}<br>
+            </li>
+        {{/each}}
+    </ui>
 </div>
 </body>
 </html>

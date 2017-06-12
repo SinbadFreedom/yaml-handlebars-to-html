@@ -1,4 +1,3 @@
-
 var Handlebars = require("handlebars");
 var yaml = require('js-yaml');
 var fs = require('fs');
@@ -12,7 +11,6 @@ if (process.argv.length < 4) {
 var mustacheFile = process.argv[2];
 var yamlFile = process.argv[3];
 var outHtmlFile = process.argv[4];
-
 
 fs.readFile(mustacheFile, 'utf8', function (error, mustache_data) {
     if (error) {
