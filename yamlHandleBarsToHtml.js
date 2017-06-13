@@ -23,7 +23,9 @@ fs.readFile(mustacheFile, 'utf8', function (error, mustache_data) {
         var yaml_data = yaml.safeLoad(fs.readFileSync(yamlFile, 'utf8'));
         var htmlContent = compiled(yaml_data);
         /** output html*/
-        fs.writeFile(outHtmlFile, htmlContent);
+        fs.writeFile(outHtmlFile, htmlContent, function () {
+            console.log("OK.");
+        });
     } catch (e) {
         console.log(e);
     }

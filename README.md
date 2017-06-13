@@ -12,4 +12,4 @@ install node module:
 
 usage:
 
-	node yamlHandleBarsToHtml.js templatefile.hbs yarmfile.yaml index.html
+	node yamlHandleBarsToHtml.js templatefile.hbs yamlFile.yaml index.html
