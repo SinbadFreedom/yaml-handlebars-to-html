@@ -4,8 +4,9 @@
   "description": "Convert html file with YAML and handlebars template.",
   "main": "yamlHandleBarsToHtml.js",
   "dependencies": {
-	"js-yaml":"*",
-	"handlebars":"*"
+    "js-yaml": "*",
+    "handlebars": "*",
+    "showdown": "*"
   },
   "devDependencies": {},
   "scripts": {

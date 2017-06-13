@@ -1,6 +1,6 @@
 title: "Hello YAML & handlebars."
 catalog: [
-	{"chapter": "前言", content: "<markdown>前言内容.md</markdown>"},
-	{"chapter": "第一章", content: "<markdown>第一章内容.md</markdown>"},
-	{"chapter": "第二章", content: "<markdown>第二章内容.md</markdown>"}
+	{"chapter": "前言", fileName: "README.md"},
+	{"chapter": "第一章", fileName: "README.md"},
+	{"chapter": "第二章", fileName: "README.md"}
 ]
