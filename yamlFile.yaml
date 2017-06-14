@@ -1,4 +1,6 @@
 title: "Hello YAML & handlebars."
+description: "描述测试"
+author: "Sinbad"
 catalog: [
 	{"chapter": "前言", fileName: "README.md"},
 	{"chapter": "第一章", fileName: "README.md"},
